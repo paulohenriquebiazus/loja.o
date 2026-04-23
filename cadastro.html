@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La casa de Pastel</title> 
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+<main>
+
+    <header>
+    
+<p class="botao_produto"><a class="letra_botao" href="index.html"><img class="logo" src="imagens/logo.o" alt="logotipo"></a></p>
+
+    </header>
+</main>
+    <form id="FormPastel" action="#" method="post">
+        <hr>
+        <h2>Informações Do Cliente</h2>
+        <label for="nome">Nome do Cliente: </label>
+        <input type="text" name="Nome" id="nome" placeholder="Seu Nome">
+        <br>
+        <br>
+
+        <label for="cpf">CPF: </label>
+        <input type="text" name="cpf" id="cpf" placeholder="Seu CPF">
+        <br>
+        <br>
+
+<fieldset>
+            <legend>Seu tipo de animal: </legend>
+
+            <label>
+              Réptil<input type="radio" name="animal" value="Reptil" id="animal">
+            </label>
+
+            <label>
+              Felino<input type="radio" name="animal" value="Falino" id="animal">
+            </label>
+
+            <label>
+              Canino<input type="radio" name="animal" value="Canino" id="animal">
+            </label>
+
+            <label>
+               Artrópode<input type="radio" name="animal" value="Artropode" id="animal">
+            </label>
+
+<br>
+
+            <label>
+               Peixes<input type="radio" name="animal" value="Peixes" id="animal">
+            </label>
+
+            <label>
+               Todos<input type="radio" name="animal" value="Todos" id="animal">
+            </label>
+
+            <label>
+               A maioria<input type="radio" name="animal" value="Maioria" id="animal">
+            </label>
+
+         <hr> 
+         <div id="cadastro"></div>
+         <br>
+         <button onclick="Cadastrar()">Cadastrar</button>    
+
+</fieldset>

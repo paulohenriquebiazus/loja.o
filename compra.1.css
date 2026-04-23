@@ -1,0 +1,79 @@
+
+
+body{
+    background-color: aqua;
+}
+
+.card_c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: rgb(94, 228, 255) 10px solid;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem_produto_c{
+    width: 450px;
+}
+
+.d_produto_c{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.p_produto_c{
+    color: rgb(38, 0, 255);
+    font-size: 30px;
+}
+
+.botao_produto_c{
+    font-size: 25px;
+    background-color: rgb(28, 15, 175);
+    width: 50%;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.letra_botao_c{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.botao_carrinho_c{
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.letra_botao_carrinho_c{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+} 
+
+.botao_produto_s{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+

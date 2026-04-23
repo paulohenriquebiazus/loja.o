@@ -1,1 +1,1 @@
-# loja.o
+# loja
