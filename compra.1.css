@@ -1,5 +1,3 @@
-
-
 body{
     background-color: aqua;
 }
@@ -20,7 +18,7 @@ body{
 }
 
 .imagem_produto_c{
-    width: 450px;
+    width: 255px;
 }
 
 .d_produto_c{
@@ -52,8 +50,8 @@ body{
 
 .botao_carrinho_c{
     font-size: 25px;
-    background-color: rgb(255, 0, 0);
-    width: 50%;
+    background-color: rgb(43, 43, 43);
+    width: 10%;
     text-decoration: none;
     height: 50px;
     border-radius: 20px;

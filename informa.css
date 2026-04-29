@@ -1,0 +1,19 @@
+body{
+    background-color: darkblue;
+}
+.card_informa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: rgb(239, 255, 95) 2px solid;
+    background-color: rgb(0, 80, 126);
+    width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+    color: white
+}
