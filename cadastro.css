@@ -41,7 +41,7 @@ header {
   text-align: center;
 }
 
-button {
+.letra_botao {
   background-color: #ffffff;
   color: rgb(0, 4, 255);
   border: none;
